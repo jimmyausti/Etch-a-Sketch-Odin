@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1 {
+    text-align: center;
+}
+
+
+#container {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    border: 0.5px solid black;
+    height: 200px;
+    width: 100%;
+}
+
+.tile {
+    border: 0.5px solid black;
+
+}
