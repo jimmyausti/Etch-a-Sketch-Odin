@@ -10,26 +10,16 @@ html {
     box-sizing: inherit;
   }
 
-h1 {
+h1, h3 {
     text-align: center;
 }
 
 
 #container {
-    padding: 4px;
+    border: 1px solid black;
+}
+
+#main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.row {
-    border: 0.5px solid black;
-    height: 200px;
-    width: 100%;
-}
-
-.tile {
-    border: 0.5px solid black;
-
 }
