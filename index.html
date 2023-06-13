@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Etch-a-Sketch!</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js" defer></script>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Etch-a-Sketch!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main id="main">
+      <header>
         <h1>Etch-a-Sketch!</h1>
-        <main id="main">
-            <div id="input-slider">
-                <input type="range" class="slider" min="0" max="10" value="0">
-                <h3 id="tileinfo">Current tile size is 0 <em>(Use the slider!!)</em></h3>
-            </div>
-            <div id="container">
-
-            </div>
-        </main>
-    </body>
+        <div id="input-slider">
+          <input type="range" class="slider" min="0" max="40" value="0" />
+          <h3 id="tileinfo">
+            Current tile size is 0 <em>(Use the slider!!)</em>
+          </h3>
+        </div>
+        <div id="colorPicker">
+          <input type="color" id="colorInput" value="#ffffff" />
+        </div>
+      </header>
+      <div
+        id="container"
+        style="
+          height: 720px;
+          width: 720px;
+          box-sizing: content-box;
+          margin: 0 auto;
+        "
+      ></div>
+    </main>
+  </body>
 </html>
