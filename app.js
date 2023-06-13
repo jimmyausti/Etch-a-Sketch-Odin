@@ -1,4 +1,4 @@
-
+//TODO clean up this code later on (chatGPT??)
 //* slider functionality
 
 const sliderContainer = document.querySelector("#input-slider");
